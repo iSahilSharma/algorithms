@@ -8,7 +8,7 @@ namespace Algorithms.Arrays
     /// Output: 3
     /// Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
     ///
-    /// Things to remember: To find the length of consecutive numbers, 
+    /// Things to remember: Binary Array Data Structure - An array which stores only 1 or 0s as elements.
     static class MaxConsecutiveItems
     {
         public static int Count(int[] arr, int item)
