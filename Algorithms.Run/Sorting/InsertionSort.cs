@@ -5,6 +5,8 @@ namespace Algorithms.Sorting
     /// Insertion Sort - Sort items in a specific order using the same way we sort playing cards by our hand.
     /// Input - [9,1,4,6,2,8]
     /// Output - [1,2,4,6,8,9]
+    /// Time Complexity: O(n^2)
+    /// Space Complexity: O(1)
     static class InsertionSort
     {
         /// The algorithm works in following steps:
@@ -24,7 +26,7 @@ namespace Algorithms.Sorting
                 while (previousIndex >= 0 && arr[previousIndex] > item)
                 {
                     arr[previousIndex + 1] = arr[previousIndex];
-                    previousIndex = previousIndex - 1;
+                    previousIndex--;
                 }
 
                 arr[previousIndex + 1] = item;
