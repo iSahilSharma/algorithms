@@ -45,7 +45,7 @@ namespace Algorithms.LinkedList
             GenericLinkedList<string> linkedList = new GenericLinkedList<string>();
             linkedList.AddNode("One");
 
-            Console.WriteLine(linkedList.  );
+            Console.WriteLine("");
             return null;
 
         }
