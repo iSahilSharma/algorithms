@@ -1,6 +1,6 @@
 using System;
 
-namespace Algorithms.Sorting
+namespace Algorithms.SortingAlgorithms
 {
     /// Insertion Sort - Sort items in a specific order using the same way we sort playing cards by our hand.
     /// Input - [9,1,4,6,2,8]
